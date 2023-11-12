@@ -209,7 +209,7 @@ resolve(answer);
 })}
 main()*/
 
-/*console.log('Escriba el número que será propietario, ejemplo: +593 99 000 0000')
+/*console.log('Escriba el número que será propietario, ejemplo: +52 99 000 0000')
 console.log('Si piensa agregar varios números separé por "," ejemplo: +593 99 000 0000, +52 1 000 000 0000, +598 00 000 000')
 const phoneNumberInput = readlineSync.question('Si desea omitir, escriba "0": ')
 if (phoneNumberInput !== '0' && phoneNumberInput !== '"0"') {
