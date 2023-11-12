@@ -338,7 +338,7 @@ if (xp > 2000)
 m.reply('Exp limit') // LÍMITE DE EXP
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-this.reply(m.chat, `🐈 *NO TIENE GATACOINS*`, m)
+this.reply(m.chat, `🍂 *NO TIENE COINS*`, m)
 continue // LÍMITE DE EXP    
 }
 m.exp += xp
@@ -382,7 +382,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' *GATACOINS USADO(S)* 🐱')
+m.reply(+m.money + ' *COINS USADO(S)* 🍂')
 break
 }}} catch (e) {
 console.error(e)
@@ -439,7 +439,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
 if (!db.data.chats[m.chat].reaction && m.isGroup) return
-if (!m.fromMem && m.text.match(/(gata|lite|bot)/gi)) {
+if (!m.fromMem && m.text.match(/(charlie|bot|Charlie)/gi)) {
 let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -473,7 +473,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '😻 𝗦𝘂𝗽𝗲𝗿 𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 😻') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '乂✰𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙✰乂') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 			    
 if (chat.antifake && botTt.restrict && isBotAdminNn && action === 'add') {
