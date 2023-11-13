@@ -15,8 +15,8 @@ const rl = createInterface(process.stdin, process.stdout)
 
 try {
 const startColor = chalk.rgb(Math.floor(Math.random() * 256), Math.floor(Math.random() * 256), Math.floor(Math.random() * 256));
-console.log(startColor('🍂 Iniciando...'));
-  
+console.log(startColor('❤️ Iniciando...'));
+
 function getRandomColor() {
 const colors = ['system', 'black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white', 'gray', 'redBright', 'greenBright', 'yellowBright', 'blueBright', 'magentaBright', 'cyanBright', 'whiteBright', 'candy'];
 const randomIndex = Math.floor(Math.random() * colors.length);
@@ -45,16 +45,16 @@ return [getRandomHexColor(), getRandomHexColor()]
 } else {
 return [getRandomColor(), getRandomColor()];
 }}
-cfonts.say('Charlie\nBot'.trim(), options)
+cfonts.say('gatabot\nlite\nmd'.trim(), options)
 
 } catch (err) {
-say('Charlie\nBot', {
+say('GataBot\nLite\nMD', {
  font: 'chrome',
  align: 'center',
  gradient: ['red', 'magenta']
 })}
 
-say(`Project Author:\nCharlie Ríos ("@maquinadefuego_gg")`.trim(), {
+say(`Project Author:\nGataNina-Li (@gata_dios)\n\nDevelopers:\nelrebelde21 (Mario)\nAzamiJs (Azami)\nKatashiFukushima (Katashi)`.trim(), {
  font: 'console',
  align: 'center',
  colors: ['candy']
@@ -105,4 +105,3 @@ p.emit('message', line.trim())
 })
 }}}
 start('main.js')
-
