@@ -1,6 +1,6 @@
 # `🐢𝖈𝖍𝖆𝖗𝖑𝖎𝖊-𝖇𝖔𝖙🐢`
 
-<a href="hhttps://www.facebook.com/charlie.rios.71216/">
+<a href="https://www.facebook.com/charlie.rios.71216/">
 <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
 </a>
 
