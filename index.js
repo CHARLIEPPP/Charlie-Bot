@@ -45,7 +45,7 @@ return [getRandomHexColor(), getRandomHexColor()]
 } else {
 return [getRandomColor(), getRandomColor()];
 }}
-cfonts.say('gatabot\nlite\nmd'.trim(), options)
+cfonts.say('Charlie\nBot'.trim(), options)
 
 } catch (err) {
 say('GataBot\nLite\nMD', {
