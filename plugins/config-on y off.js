@@ -18,7 +18,7 @@ throw false
 bot.restrict = isEnable
 break
 		
-case 'welcome': case 'bienvenida':
+case 'welcome': case 'bienvenid@':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
