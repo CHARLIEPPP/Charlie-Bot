@@ -16,7 +16,6 @@ global.owner = [
 ['5219516124971', '𝙊𝙬𝙣𝙚𝙧', true], //Charlie_Rios
 
 global.mods = [] 
-global.prems = []
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
