@@ -14,8 +14,10 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
 ['5219516124971', '𝙊𝙬𝙣𝙚𝙧', true], //Charlie_Rios
+['593968585383'], ['5492266466080'], ['5217294888993'], ['5492266613038'], ['51948705559']]
 
 global.mods = [] 
+global.prems = []
    
 // ES ➜ Agregue el código de idioma el cual usará GataBot  
 // EN ➜ Add the language code which GataBot will use
