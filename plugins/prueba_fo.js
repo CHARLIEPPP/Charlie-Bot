@@ -1,4 +1,4 @@
-//CÓDIGO ADAPTADO POR https://github.com/GataNina-Li | @gata_dios
+
 
 /*let handler = async (m, { conn, text, usedPrefix, command }) => { 
 let cometido
