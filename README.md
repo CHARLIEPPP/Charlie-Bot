@@ -117,4 +117,4 @@ Set-ExecutionPolicy RemoteSigned
 #### ✨ Indonesio (Bahasa Indonesia) [`Mengedit Bahasa`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/indonesio.js) 
 #### ✨ Árabe (عرب) [`عدل اللغة`](https://github.com/GataNina-Li/GataBotLite-MD/blob/master/lib/idiomas/arabe.js)
 ----
-[`Contactame`](https://wa.me/5219516124971
+[`Contactame`](https://wa.me/5219516124971)
